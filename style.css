@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+}
+
+header {
+    background: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.product-card {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+}
+
+button {
+    background: #0073e6;
+    color: white;
+    border: none;
+    padding: .5rem 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #005bb5;
+}
+
+.cart {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    width: 250px;
+}
